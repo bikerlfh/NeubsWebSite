@@ -6,11 +6,140 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
+        <link rel="icon" type="image/png" href="img/LogotipoN2.png" />
+        <title>Neubs</title>
+        <meta charset="UTF-8"> <!--Tipo de caracteres-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Incormporar estilo link-->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/estiloheader.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="fonts.css">
+
+
     </head>
     <body>
-        <div>TODO write content</div>
-    </body>
+        <div>
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                        
+                        </button>
+                        <a class="navbar-brand" href="#">
+                            <img alt="Brand" src="img/Logof.png" >
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Quienes somos?</a></li>
+                            <li><a href="#">Productos</a></li>
+                            <li><a href="#">Servicios</a></li>
+                            <li><a href="#">Contactenos </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+       
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="img/compu.jpg" alt="Chania" width="460" height="345">
+                    <div class="carousel-caption">
+                        <h3>TRABAJO SEGURO</h3>
+                        <p>Logrando con esfuerzo lo mejor de Neubs</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="img/oficina.jpg" alt="Chania" width="460" height="345">
+                </div>
+
+                <div class="item">
+                    <img src="img/oficina2.jpg" alt="Flower" width="460" height="345">
+                </div>
+
+                <div class="item">
+                    <img src="img/oficina3.jpg" alt="Flower" width="460" height="345">
+                </div>
+            </div>  
+        </div>
+        <div class="container-fluid  bg-grey">
+            <div class="row">
+                <div class="col-sm-8">
+                    <img class="logo slideanim slides" src="img/web.png" >
+                </div>
+                <div class="col-sm-4"> 
+                    <h3>Diseño y Desarollo Web</h3>
+                    <p>Diseño de páginas web determina la apariencia. Que cubre el diseño, 
+                     la navegación y los colores de un sitio web (También puede incluir 
+                     el diseño gráfico y logo),  está más preocupado por la estética y la experiencia 
+                     del usuario de las funciones. Un diseñador de páginas web  crea  sitios  fáciles
+                     de usar y adecuados para su propósito.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid  bg-grey">
+            <div class="row">
+                <div class="col-sm-4"> 
+                    <h3>Diseño y Desarrollo de Aplicaciones Moviles</h3>
+                    <p>Desarrollamos aplicaciones que interconectan, potencializan y posicionan su negocio.Con aplicaciones para dispositivos móviles 
+                        multiplataforma (iPhone, iPad , Android), su empresa podrá generar soluciones enfocadas a sus necesidades.
+                    </p>
+                </div>
+                <div class="col-sm-8">
+                    <img class="logo  slideanim slides" src="img/movil1.png">
+                </div>
+             </div>
+        </div>
+        <div class="container-fluid  bg-grey">
+            <div class="row">
+                <div class="col-sm-8">
+                    <img class="logo  slideanim slides" src="img/bd.png">
+                </div>
+                <div class="col-sm-4"> 
+                    <h3>Diseño y Desarrollo de Aplicaciones Moviles</h3>
+                    <p>Desarrollamos aplicaciones que interconectan, potencializan y posicionan su negocio.Con aplicaciones para dispositivos móviles 
+                        multiplataforma (iPhone, iPad , Android), su empresa podrá generar soluciones enfocadas a sus necesidades.
+                    </p>
+                </div>  
+             </div>
+        </div>
+        <footer>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h5>Contacto</h5>
+                    <p class="contenidofooter"> Correo: admin@neubs.com</p>
+                    <p class="contenidofooter"> Celular: 312-234-344</p>
+                </div>
+                <div class="col-sm-4">
+                    <h5>Acerca de </h5>
+                    <p class="contenidofooter">Somos una empresa especializada en dar soluciones pertinentes a las necesidades del cliente. Diseñamdo
+                    productos innovaadores y unicos de buena calidad y eficiencia.</p>
+                </div>
+                <div class="col-sm-4 social">
+                    <h5>Siguenos en: </h5>
+                    <div class="row">
+                      <div class="col-md-4"><a href="URL-FACEBOOK" target="_blank"><img class="iconosocial" alt="siguenos en facebook"  src="http://3.bp.blogspot.com/-MQuocq7OzfU/UiXwUY81yQI/AAAAAAAAB0Q/h6-R_R2-buI/s1600/face.png" title="Siguenos en facebook" /></a></div>
+                      <div class="col-md-4"><a href="URL-Google+" target="_blank"><img class="iconosocial" alt="siguenos en Google+" src="http://1.bp.blogspot.com/-LzgEeObkOc0/UiX1TupB_KI/AAAAAAAAB5I/Ox_ZllZY90g/s1600/Google%252B+alt.png" title="Siguenos en Google+" /></a></div>
+                      <div class="col-md-4"><a href="URL-Twitter" target="_blank"><img class="iconosocial"  alt="siguenos en Twitter"  src="http://2.bp.blogspot.com/-B0wCtNXYV3U/UiX1VnAQSrI/AAAAAAAAB6Q/ILY3m0NJVE8/s1600/Twitter+NEW.png" title="Siguenos en Twitter"  /></a></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+     </body>
 </html>
