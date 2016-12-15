@@ -5,9 +5,9 @@
  */
 $(document).ready(function()
 {
-    //var altura = $(window).height() * 0.5;
+   /*var altura = $(window).height() * 0.8;
     
-   //$('.carousel .item').css('height',altura + "px");
+   $('.carousel .item').css('height',altura + "px");*/
   
 });
 
