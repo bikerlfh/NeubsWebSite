@@ -10,13 +10,14 @@ and open the template in the editor.
 .navbar {
       padding-top: 5px;
       padding-bottom: 5px;
+      padding-right: 10px;
       border: 0;
       border-radius: 0;
       margin-bottom: 0;
       font-size: 12px;
-      letter-spacing: 4px;
+      letter-spacing: 3px;
       text-align: center;
-      color: #080808;
+      color: #FBFBFB;
       opacity: .9;
   }
   .nav{
@@ -25,11 +26,12 @@ and open the template in the editor.
   
   .navbar-nav li a 
 {
-    border-right:  #fff 1px solid;
+    border-right: #fff 2px solid;
     top: 12px;
     padding-top: 3px;
     padding-bottom: 3px;
     position: relative;
+    letter-spacing: 3px;
 }
 .navbar-brand img{
     width: 80px;
@@ -52,6 +54,7 @@ and open the template in the editor.
 }
 .container-fluids {
    padding: 40px 40px;
+   width: 100%;
 }
 .logo {
     width: 100%;
@@ -118,5 +121,11 @@ footer {
     font-size: 10px;
     text-align: center;
     
+}
+
+.containertable{
+    width:20px ;
+    height: 9px;
+    margin: auto;  
 }
    
