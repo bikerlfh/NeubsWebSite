@@ -68,7 +68,7 @@ and open the template in the editor.
 }
 
 .slideanim {
-    visibility:hidden;
+    visibility:visible;
 }
 .slides {
     /* The name of the animation */
@@ -118,14 +118,14 @@ footer {
     margin-right: auto;
 }
 .contenidofooter{
-    font-size: 10px;
+    font-size: 14px;
     text-align: center;
     
 }
 
 .containertable{
     width:20px ;
-    height: 9px;
+    height: 20px;
     margin: auto;  
 }
    
