@@ -12,14 +12,16 @@ and open the template in the editor.
     .containersection{
         font-size: 14px;
     }
-    .container-fluids {
-        padding: 80px 40px;
+    .container-fluid {
         width: 100%;
     }
     .containerpanel{
-        padding: 60px 40px;
+        padding: 60px 0px 40px 0px;
         top:29px;
         width: 100%;
+    }
+    .container-principal{
+        padding: 80px 0px 40px 0px;
     }
 }
 
@@ -27,14 +29,16 @@ and open the template in the editor.
     .containersection{
         font-size: 16px;
     }
-    .container-fluids {
-        padding: 80px 40px;
+    .container-fluid {
         width: 100%;
     }
     .containerpanel{
         padding: 60px 40px;
         top:29px;
         width: 100%;
+    }
+    .container-principal{
+        padding: 80px 0px 40px 0px;
     }
 }
 
@@ -42,28 +46,33 @@ and open the template in the editor.
     .containersection{
         font-size: 18px;
     }
-    .container-fluids {
-        padding: 60px 40px;
-        width: 40%;
+    .container-fluid {
+        width: 100%;
     }
     .containerpanel{
         padding: 60px 40px;
         top:29px;
         width: 100%;
     }
+    .container-principal{
+        padding: 60px 0px 40px 0px;
+    }
+    
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1400px){
     .containersection{
         font-size: 16px;
     }
-    .container-fluids {
-        padding: 80px 40px;
-        width: 100%;
+    .container-fluid {
+        width: 80%;
+        margin: auto;
     }
     .containerpanel{
-        padding: 80px 40px;
         width: 100%;
+    }
+    .container-principal{
+        padding: 80px 0px 40px 0px;
     }
 }
 .bg-1 {
