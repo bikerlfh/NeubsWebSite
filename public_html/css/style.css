@@ -8,7 +8,7 @@ and open the template in the editor.
     Author     : Tatiana
 */
 .container-principal{
-    padding-right: 40px;
+    padding-right: 0px;
 }
 @media screen and (max-width:767px) {
     .col-sm-4 {

@@ -45,26 +45,7 @@ and open the template in the editor.
    font-family:Palatino Linotype;
 }
 
-@media screen and (max-width: 1800px) and (min-width: 1200px){
-    .containersection{
-        font-size: 16px;
-    }
-}
-@media screen and (max-width: 767px) {
-    .containersection{
-        font-size: 14px;
-    }
-}
-@media screen and (max-width: 991px)and (min-width: 768px) {
-    .containersection{
-        font-size: 16px;
-    }
-}
-@media screen and (max-width: 1199px)and (min-width: 992px) {
-    .containersection{
-        font-size: 18px;
-    }
-}
+
 
 .containerdescripcion{
      margin-top: 60px;
