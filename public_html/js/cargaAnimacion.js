@@ -4,23 +4,23 @@
  * and open the template in the editor.
  */
     $(window).scroll(function() {
-      $(".slideanim").each(function(){
+      $(".imagen-animacion-botton-to-top").each(function(){
         var pos = $(this).offset().top;
 
         var winTop = $(window).scrollTop();
         if (pos < winTop + 600) {
-          $(this).addClass("slides");
+          $(this).addClass("anim-botton-to-top");
         }
       });
     });
     
     $(window).scroll(function() {
-      $(".slideanimes").each(function(){
+      $(".imagen-animacion-left-to-right").each(function(){
         var pos = $(this).offset().top;
 
         var winTop = $(window).scrollTop();
         if (pos < winTop + 600) {
-          $(this).addClass("slides1");
+          $(this).addClass("anim-left-to-right");
         }
       });
     });

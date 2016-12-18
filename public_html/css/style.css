@@ -97,7 +97,200 @@ and open the template in the editor.
         display: none; 
       }
     }
+ 
+  /* Estilo de jumbotron de la pagina de servicios */
+.jumbotron 
+{
+    background-image: url(../img/fondoJumbroton.jpg);
+    color: #fff;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+    background-size: cover;
+} 
+ /* Sombra del contorno de la imagen de la pagina de servicios */
+.shadow {
+    -webkit-filter: drop-shadow(8px 8px 10px grey);
+    filter: drop-shadow(8px 8px 10px grey);
+}
+/* Visibilidad del objeto de la animacion*/
+.imagen-animacion-left-to-right {
+    visibility:visible;
+}
+/* Animacion por el eje x */
+.anim-left-to-right{
+    /* Nombre de la animacion */
+    animation-name: anim-left-to-right;
+    -webkit-animation-name: anim-left-to-right; 
+    /* Duracion de la animacion */
+    animation-duration: 2s; 
+    -webkit-animation-duration: 1s;
+    /* Hacer que el elemento sea visible */
+    visibility: visible; 
+}
 
+/* Ir de 0% a 100% opacidad y especificar el porcentaje cuando se deslice el elemento a lo largo del eje x */
+@keyframes anim-left-to-right {
+    0% {
+        opacity: 0;
+        transform: translate(-90%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translate(0%);
+    } 
+}
+@-webkit-keyframes anim-left-to-right {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate(-90%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translate(0%);
+    }
+}
 
+/* Visibilidad del objeto de la animacion*/
+.imagen-animacion-botton-to-top {
+    visibility:visible;
+}
+/* Animacion por el eje y */
+.anim-botton-to-top {
+    /* Nombre de la animacion */
+    animation-name: anim-botton-to-top ;
+    -webkit-animation-name: anim-botton-to-top ; 
+    /* Duracion de la animacion */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Hacer que el elemento sea visible*/
+    visibility: visible; 
+}
 
+/*  Ir de 0% a 100% opacidad y especificar el porcentaje cuando se deslice el elemento a lo largo del eje y */
+@keyframes anim-botton-to-top {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes anim-botton-to-top {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+/*Animacion de rotacion 360 grados*/
+.anim-rotate-360 {
+    -webkit-animation-name: anim-rotate-360;
+   -webkit-animation-timing-function: linear;
+   -webkit-animation-duration: 2s;
+   -webkit-transform-style: preserve-3d;
+}
 
+/*  Rotacion del elemento desde el putno inicial 0° a 360°*/
+@keyframes anim-rotate-360 {
+    from { 
+        -webkit-transform: rotateY(0deg); 
+    }
+    to   { 
+      -webkit-transform: rotateY(-360deg); 
+    }
+ 
+}
+@-webkit-keyframes anim-rotate-360 {
+    from {
+      -webkit-transform: rotateY(0deg);  
+    }
+    to  { 
+      -webkit-transform: rotateY(-360deg); 
+    }
+}
+/* Estilo de Footer*/
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    color:#666;
+}
+/* Fondo desgrado de de blanco a gris */
+.bg-grey{
+    background:linear-gradient(0deg,#FBFBFB,#fff);
+}
+
+/* Estilo de la barra de navegacion */
+.navbar {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 0px;
+      padding-right: 0px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 3px;
+      text-align: center;
+      color: #FBFBFB;
+      opacity: .9;
+  }
+/* Posicion de la barra de navegacion */
+.nav {
+    position: relative;
+}
+/* Estilo de la etiqueta a */
+.navbar-nav li a 
+{
+    border-right: #fff 2px solid;
+    top: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    position: relative;
+    letter-spacing: 3px;
+}
+/* Medidas de la imagen del navbar-brand */
+.navbar-brand img{
+    width: 80px;
+    margin: 0 auto;
+}
+/* Estilo del carousel de imagenes*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+.carousel .item {
+    width: 100%; 
+    max-height: 500px;
+}
+
+/*Adapta al 80% las imagenes dentro de la clase de contaniner-fluid*/
+.imagen{
+    width: 80%;
+    margin: auto;
+}
+/*Dimensiones del logo en el nav */
+.logo {
+    width: 100%;
+    height: 100%;
+}
+
+.icono-social{
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table-icon-social{
+    width:20px ;
+    height:20px;
+    margin: auto;  
+}
