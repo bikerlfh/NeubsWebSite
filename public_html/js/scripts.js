@@ -5,6 +5,7 @@
  */
 $(document).ready(function()
 {
+   /* alert($(window).width())
    /*var altura = $(window).height() * 0.8;
     
    $('.carousel .item').css('height',altura + "px");*/
