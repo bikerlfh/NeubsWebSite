@@ -7,8 +7,14 @@ and open the template in the editor.
     Created on : Dec 16, 2016, 5:46:25 PM
     Author     : Tatiana
 */
-
+.container-principal{
+    padding-right: 40px;
+}
 @media screen and (max-width:767px) {
+    .col-sm-4 {
+        text-align: justify;
+        margin: 10px 0;
+    }
     .containersection{
         font-size: 14px;
     }
@@ -21,7 +27,7 @@ and open the template in the editor.
         width: 100%;
     }
     .container-principal{
-        padding: 80px 0px 40px 0px;
+        padding-top: 80px;
     }
 }
 
@@ -38,7 +44,7 @@ and open the template in the editor.
         width: 100%;
     }
     .container-principal{
-        padding: 80px 0px 40px 0px;
+        padding-top: 80px;
     }
 }
 
@@ -55,7 +61,7 @@ and open the template in the editor.
         width: 100%;
     }
     .container-principal{
-        padding: 60px 0px 40px 0px;
+        padding-top: 60px;
     }
     
 }
@@ -65,14 +71,14 @@ and open the template in the editor.
         font-size: 16px;
     }
     .container-fluid {
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
     .containerpanel{
         width: 100%;
     }
     .container-principal{
-        padding: 80px 0px 40px 0px;
+        padding-top: 80px;
     }
 }
 .bg-1 {
