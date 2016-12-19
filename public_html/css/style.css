@@ -37,7 +37,7 @@ and open the template in the editor.
         padding-bottom: 20px;
     }
     .container-principal{
-        padding-top: 80px;
+        padding-top: 1px;
     }
 }
 
@@ -60,7 +60,7 @@ and open the template in the editor.
         padding-bottom: 20px;
     }
     .container-principal{
-        padding-top: 80px;
+        padding-top: 10px;
     }
 }
 
@@ -85,7 +85,7 @@ and open the template in the editor.
        
     }
     .container-principal{
-        padding-top: 60px;
+        padding-top: 30px;
     } 
 }
 
@@ -107,7 +107,7 @@ and open the template in the editor.
         padding-bottom: 20px;
     }
     .container-principal{
-        padding-top: 30px;
+        padding-top: 20px;
     }
 }
 .bg-1 {
@@ -295,7 +295,6 @@ footer {
 /*Adapta al 80% las imagenes dentro de la clase de contaniner-fluid*/
 .imagen{
     width: 80%;
-    margin: auto; 
 }
 /*Dimensiones del logo en el nav */
 .logo {
