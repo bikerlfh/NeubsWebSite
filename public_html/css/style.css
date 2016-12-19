@@ -9,7 +9,8 @@ and open the template in the editor.
 */
  
 .container-principal{
-    padding-right: 0px;
+    padding-right: 10px;
+    margin-bottom: 10px;
 }
 .row{
     width: 100%;
@@ -20,6 +21,12 @@ and open the template in the editor.
     .titulo-principal{
         font-family:fantasy;
         font-size: 18px;
+    }
+    
+    .titulo-secundario{
+        font-family:monospace;
+        font-size: 18px;
+        text-justify: auto;
     }
    
     .container-fluid {
@@ -61,7 +68,11 @@ and open the template in the editor.
     
     .titulo-principal{
         font-family:fantasy;
-        font-size: 26px;
+        font-size: 28px;
+    }
+     .titulo-secundario{
+        font-family:serif;
+        font-size: 18px;
     }
     .container-fluid {
         width: 100%;
@@ -92,7 +103,7 @@ and open the template in the editor.
         padding-bottom: 20px;
     }
     .container-principal{
-        padding-top: 80px;
+        padding-top: 30px;
     }
 }
 .bg-1 {
@@ -107,6 +118,7 @@ and open the template in the editor.
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
     background-size: cover;
+    margin-bottom: 0px;
 } 
  /* Sombra del contorno de la imagen de la pagina de servicios */
 .shadow {
