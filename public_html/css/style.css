@@ -7,6 +7,7 @@ and open the template in the editor.
     Created on : Dec 16, 2016, 5:46:25 PM
     Author     : Tatiana
 */
+ 
 .container-principal{
     padding-right: 0px;
 }
@@ -15,17 +16,18 @@ and open the template in the editor.
     margin: auto;
 }
 @media screen and (max-width:767px) {
-    .col-sm-4 {
-        text-align: justify;
-        margin: 10px 0;
+    
+    .titulo-principal{
+        font-family:fantasy;
+        font-size: 18px;
     }
+   
     .container-fluid {
         width: 100%;
     }
     .containerpanel{
-        padding: 60px 0px 40px 0px;
-        top:29px;
-        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     .container-principal{
         padding-top: 80px;
@@ -33,13 +35,22 @@ and open the template in the editor.
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .titulo-principal{
+        font-family:fantasy;
+        font-size: 20px;
+    }
+    .titulo-secundario{
+        font-family:monospace;
+        font-size: 18px;
+        text-justify: auto;
+    }
     .container-fluid {
         width: 100%;
     }
     .containerpanel{
-        padding: 60px 40px;
-        top:29px;
-        width: 100%;
+       padding-top: 20px;
+        padding-bottom: 20px;
     }
     .container-principal{
         padding-top: 80px;
@@ -48,6 +59,10 @@ and open the template in the editor.
 
 @media screen and (min-width: 992px) and (max-width: 1399px) {
     
+    .titulo-principal{
+        font-family:fantasy;
+        font-size: 26px;
+    }
     .container-fluid {
         width: 100%;
         padding-bottom: 0px;
@@ -64,12 +79,17 @@ and open the template in the editor.
 }
 
 @media screen and (min-width: 1400px){
+     .titulo-principal{
+        font-family:fantasy;
+        font-size: 28px;
+    }
     .container-fluid {
         width: 90%;
         margin: auto;
     }
     .containerpanel{
-        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     .container-principal{
         padding-top: 80px;
