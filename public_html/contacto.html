@@ -35,7 +35,7 @@ and open the template in the editor.
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="quienesSomos.html">Quienes somos?</a></li>
                         <li><a href="servicios2.html">Servicios</a></li>
                         <li><a href="#">Productos</a></li>
@@ -45,12 +45,33 @@ and open the template in the editor.
             </div>
         </nav>
         <div class="container-principal">
-            <form>
-                <div class="form-group-lg">
-                    <label for="nombre">Email address:</label>
-                    <input type="nombre" class="form-control" id="email">
-                </div>
-            </form>
+                <p class="titulo-principal text-center"> CONTACTENOS</p>
+                <div class="row container-fluid ">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                        <img src="img/contactos.jpg" class="" width="600" height="370"> 
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                        <form class="containerpanel">
+                            <div class="form-group">
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" class="form-control" id="nombre">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="asunto">Asunto:</label>
+                                <input type="text" class="form-control" id="asunto">
+                            </div>
+                            <div class="form-group">
+                                <label for="descripcion">Descripción:</label>
+                                <textarea class="form-control" id="descripcion"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success">Enviar</button>
+                        </form> 
+                    </div>
+                </div>   
         </div>
         <footer> 
             <div class="container-fluid text-center">

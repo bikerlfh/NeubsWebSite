@@ -20,12 +20,12 @@ and open the template in the editor.
     
     .titulo-principal{
         font-family:fantasy;
-        font-size: 18px;
+        font-size: 22px;
     }
     
     .titulo-secundario{
         font-family:monospace;
-        font-size: 18px;
+        font-size: 15px;
         text-justify: auto;
     }
    
@@ -45,11 +45,11 @@ and open the template in the editor.
     
     .titulo-principal{
         font-family:fantasy;
-        font-size: 20px;
+        font-size: 23px;
     }
     .titulo-secundario{
         font-family:monospace;
-        font-size: 18px;
+        font-size: 17px;
         text-justify: auto;
     }
     .container-fluid {
@@ -92,7 +92,11 @@ and open the template in the editor.
 @media screen and (min-width: 1400px){
      .titulo-principal{
         font-family:fantasy;
-        font-size: 28px;
+        font-size: 30px;
+    }
+    .titulo-secundario{
+        font-family:serif;
+        font-size: 25px;
     }
     .container-fluid {
         width: 90%;
@@ -291,8 +295,7 @@ footer {
 /*Adapta al 80% las imagenes dentro de la clase de contaniner-fluid*/
 .imagen{
     width: 80%;
-    margin: auto;
-    
+    margin: auto;    
 }
 /*Dimensiones del logo en el nav */
 .logo {
@@ -312,5 +315,15 @@ footer {
     width:20px ;
     height:20px;
     margin: auto;  
+}
+form{
+    width: 400px;
+    margin: auto;
+        
+}
+
+.button{
+    background-color:#000;
+    color: #fff;
 }
 
