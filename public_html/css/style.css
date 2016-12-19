@@ -9,8 +9,8 @@ and open the template in the editor.
 */
  
 .container-principal{
-    padding-right: 10px;
-    margin-bottom: 10px;
+    padding-right: 0px;
+    margin-bottom: 0px; 
 }
 .row{
     width: 100%;
@@ -20,12 +20,12 @@ and open the template in the editor.
     
     .titulo-principal{
         font-family:fantasy;
-        font-size: 22px;
+        font-size: 20px;
     }
     
     .titulo-secundario{
         font-family:monospace;
-        font-size: 15px;
+        font-size: 12px;
         text-justify: auto;
     }
    
@@ -33,7 +33,7 @@ and open the template in the editor.
         width: 100%;
     }
     .containerpanel{
-        padding-top: 20px;
+        padding-top: 10px;
         padding-bottom: 20px;
     }
     .container-principal{
@@ -45,11 +45,11 @@ and open the template in the editor.
     
     .titulo-principal{
         font-family:fantasy;
-        font-size: 23px;
+        font-size: 22px;
     }
     .titulo-secundario{
         font-family:monospace;
-        font-size: 17px;
+        font-size: 14px;
         text-justify: auto;
     }
     .container-fluid {
@@ -64,15 +64,15 @@ and open the template in the editor.
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1399px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
     
     .titulo-principal{
         font-family:fantasy;
-        font-size: 28px;
+        font-size: 24px;
     }
      .titulo-secundario{
         font-family:serif;
-        font-size: 18px;
+        font-size: 16px;
     }
     .container-fluid {
         width: 100%;
@@ -89,21 +89,21 @@ and open the template in the editor.
     } 
 }
 
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1201px){
      .titulo-principal{
         font-family:fantasy;
-        font-size: 30px;
+        font-size: 26px;
     }
     .titulo-secundario{
         font-family:serif;
-        font-size: 25px;
+        font-size: 18px;
     }
     .container-fluid {
         width: 90%;
         margin: auto;
     }
     .containerpanel{
-        padding-top: 20px;
+        padding-top: 50px;
         padding-bottom: 20px;
     }
     .container-principal{
@@ -295,7 +295,7 @@ footer {
 /*Adapta al 80% las imagenes dentro de la clase de contaniner-fluid*/
 .imagen{
     width: 80%;
-    margin: auto;    
+    margin: auto; 
 }
 /*Dimensiones del logo en el nav */
 .logo {
@@ -316,10 +316,11 @@ footer {
     height:20px;
     margin: auto;  
 }
-form{
-    width: 400px;
-    margin: auto;
-        
+.formulario{
+    
+    margin-left: 50px;
+    margin-right: 50px;
+   
 }
 
 .button{
