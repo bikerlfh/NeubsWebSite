@@ -16,6 +16,10 @@ and open the template in the editor.
     width: 100%;
     margin: auto;
 }
+.texto-principal{
+    font-family:monospace;
+    text-justify: auto;
+}
 @media screen and (max-width:767px) {
     
     .titulo-principal{
@@ -23,10 +27,8 @@ and open the template in the editor.
         font-size: 20px;
     }
     
-    .titulo-secundario{
-        font-family:monospace;
+    .texto-principal{
         font-size: 12px;
-        text-justify: auto;
     }
    
     .container-fluid {
@@ -47,10 +49,8 @@ and open the template in the editor.
         font-family:fantasy;
         font-size: 22px;
     }
-    .titulo-secundario{
-        font-family:monospace;
+    .texto-principal{
         font-size: 14px;
-        text-justify: auto;
     }
     .container-fluid {
         width: 100%;
@@ -70,8 +70,7 @@ and open the template in the editor.
         font-family:fantasy;
         font-size: 24px;
     }
-     .titulo-secundario{
-        font-family:serif;
+     .texto-principal{
         font-size: 16px;
     }
     .container-fluid {
@@ -94,8 +93,7 @@ and open the template in the editor.
         font-family:fantasy;
         font-size: 26px;
     }
-    .titulo-secundario{
-        font-family:serif;
+    .texto-principal{
         font-size: 18px;
     }
     .container-fluid {
@@ -266,7 +264,7 @@ footer {
     position: relative;
 }
 /* Estilo de la etiqueta a */
-.navbar-nav li a 
+.navbar-nav li a
 {
     border-right: #fff 2px solid;
     top: 12px;

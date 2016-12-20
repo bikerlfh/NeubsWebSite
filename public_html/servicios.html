@@ -13,11 +13,9 @@ and open the template in the editor.
         <!--Incorporar estilo link-->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/bootstrap.css" rel="stylesheet">
-        <link href="css/estiloprincipal.css" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/cargaAnimacion.js"></script>
-        <link href="css/estiloSecundario.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
     </head>
    
@@ -38,10 +36,10 @@ and open the template in the editor.
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="quienesSomos.html">Quienes somos?</a></li>
-                            <li><a href="servicios.html">Servicios</a></li>
-                            <li><a href="contacto.html">Contactenos </a></li>
+                            <li onclick="$(location).attr('href', 'index.html');"><a href="#">Inicio</a></li>
+                            <li onclick="$(location).attr('href', 'quienesSomos.html');"><a href="#">¿Quiénes somos?</a></li>
+                            <li onclick="$(location).attr('href', 'servicios.html');"><a href="#">Servicios</a></li>
+                            <li onclick="$(location).attr('href', 'contacto.html');"><a href="#">Contáctenos</a></li>
                         </ul>
                     </div>
                 </div>
@@ -60,7 +58,7 @@ and open the template in the editor.
                         <img class="imagen img-responsive animacion-left-to-right center-block" src="img/icon/web.jpg" alt="web" >
                     </div>
                     <div class="col-lg-7 col-md-8 col-sm-12 col-xs-12"> 
-                        <p class="text-justify titulo-secundario" >Diseño de páginas web determina la apariencia. Que cubre el diseño, 
+                        <p class="text-justify texto-principal" >Diseño de páginas web determina la apariencia. Que cubre el diseño, 
                         la navegación y los colores de un sitio web (También puede incluir 
                         el diseño gráfico y logo),  está más preocupado por la estética y la experiencia 
                         del usuario de las funciones. Un diseñador de páginas web  crea  sitios  fáciles
@@ -79,7 +77,7 @@ and open the template in the editor.
                     <br>
                     
                     <div class="col-lg-7 col-md-8 col-sm-12 col-xs-12"> 
-                        <p class="text-justify titulo-secundario" >Diseño de páginas web determina la apariencia. Que cubre el diseño, 
+                        <p class="text-justify texto-principal" >Diseño de páginas web determina la apariencia. Que cubre el diseño, 
                          la navegación y los colores de un sitio web (También puede incluir 
                          el diseño gráfico y logo),  está más preocupado por la estética y la experiencia 
                          del usuario de las funciones. Un diseñador de páginas web  crea  sitios  fáciles
@@ -103,7 +101,7 @@ and open the template in the editor.
                        <img class="imagen img-responsive  imagen-animacion-left-to-right center-block " src="img/icon/basedatos.jpg" alt="bd" >
                     </div>
                     <div class="col-lg-7 col-md-8 col-sm-12 col-xs-12 containerdescripcion"> 
-                       <p class="text-justify titulo-secundario" >Diseño de páginas web determina la apariencia. Que cubre el diseño, 
+                       <p class="text-justify texto-principal" >Diseño de páginas web determina la apariencia. Que cubre el diseño, 
                         la navegación y los colores de un sitio web (También puede incluir 
                         el diseño gráfico y logo),  está más preocupado por la estética y la experiencia 
                         del usuario de las funciones. Un diseñador de páginas web  crea  sitios  fáciles
@@ -121,7 +119,7 @@ and open the template in the editor.
                     <p class="text-center titulo-principal" ><b>Redes de Telecomunicación</b></p>
                     <br>
                     <div class="col-lg-7 col-md-8 col-sm-12 col-xs-12 containerdescripcion"> 
-                        <p class="text-justify titulo-secundario" >Diseño de páginas web determina la apariencia. Que cubre el diseño, 
+                        <p class="text-justify texto-principal" >Diseño de páginas web determina la apariencia. Que cubre el diseño, 
                         la navegación y los colores de un sitio web (También puede incluir 
                         el diseño gráfico y logo),  está más preocupado por la estética y la experiencia 
                         del usuario de las funciones. Un diseñador de páginas web  crea  sitios  fáciles
@@ -145,7 +143,7 @@ and open the template in the editor.
                         <img class="imagen  img-responsive imagen-animacion-left-to-right center-block" src="img/icon/ventas.png" alt="ventas" >
                     </div>
                     <div class="col-lg-7 col-md-8 col-sm-12 col-xs-12 containerdescripcion"> 
-                        <p class="text-justify titulo-secundario" >Diseño de páginas web determina la apariencia. Que cubre el diseño, 
+                        <p class="text-justify texto-principal" >Diseño de páginas web determina la apariencia. Que cubre el diseño, 
                          la navegación y los colores de un sitio web (También puede incluir 
                          el diseño gráfico y logo),  está más preocupado por la estética y la experiencia 
                          del usuario de las funciones. Un diseñador de páginas web  crea  sitios  fáciles
@@ -161,14 +159,14 @@ and open the template in the editor.
         </div>
         <footer> 
             <div class="container-fluid text-center">
-                <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <br>
                         <p class="text-center"><b>Contáctenos </b></p>
                         <span class="glyphicon-envelope "> admin@neubs.co</span><br>
                         <span class="glyphicon-phone "> (+57) 3222709439 - (+57) 3222331893</span>
                     </div>
-                    <div align="center" class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                    <div align="center"  class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
                         <br>
                         <p class="text-center"><b>Síguenos</b></p>
                         <table class="table table-icon-social ">
