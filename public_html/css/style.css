@@ -96,7 +96,7 @@ and open the template in the editor.
     .titulo-secundario{
         font-family: fantasy;
         font-size: 25px;
-        text-align: justify;
+        text-align: center;
     }
     .texto-principal{
         font-size: 18px;
@@ -127,6 +127,14 @@ and open the template in the editor.
     background-size: cover;
     margin-bottom: 0px;
 } 
+.jumbotronContacto{
+    background-image: url(../img/contactos.jpg);
+    color: #fff;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+    background-size: cover;
+    margin-bottom: 0px;
+}
  /* Sombra del contorno de la imagen de la pagina de servicios */
 .shadow {
     -webkit-filter: drop-shadow(8px 8px 10px grey);
@@ -320,8 +328,8 @@ footer {
 }
 .formulario{
     
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
    
 }
 
