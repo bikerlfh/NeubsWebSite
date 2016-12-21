@@ -44,6 +44,11 @@ and open the template in the editor.
     .container-principal{
         padding-top: 1px;
     }
+    .formulario{
+    
+    margin-left: 20px;
+    margin-right: 20px;  
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -59,10 +64,15 @@ and open the template in the editor.
     }
     .containerpanel{
        padding-top: 20px;
-        padding-bottom: 20px;
+       padding-bottom: 20px;
     }
     .container-principal{
         padding-top: 10px;
+    }
+     .formulario{
+    
+    margin-left: 20px;
+    margin-right: 20px;  
     }
 }
 
@@ -87,6 +97,10 @@ and open the template in the editor.
     .container-principal{
         padding-top: 30px;
     } 
+    .formulario{
+    margin-left: 100px;
+    margin-right: 100px;
+    }
 }
 
 @media screen and (min-width: 1201px){
@@ -111,6 +125,10 @@ and open the template in the editor.
     }
     .container-principal{
         padding-top: 20px;
+    }
+     .formulario{
+    margin-left: 200px;
+    margin-right: 200px;
     }
 }
 .bg-1 {
@@ -325,12 +343,6 @@ footer {
     width:20px ;
     height:20px;
     margin: auto;  
-}
-.formulario{
-    
-    margin-left: 70px;
-    margin-right: 70px;
-   
 }
 
 .button{
