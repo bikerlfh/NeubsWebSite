@@ -18,12 +18,15 @@ and open the template in the editor.
 }
 .texto-principal{
     font-family: 'Open Sans', sans-serif;
-    text-justify: auto;
+    text-align: justify;
+}
+.titulo-principal{
+    font-family: fantasy;;
+    text-align: center;
 }
 @media screen and (max-width:767px) {
     
     .titulo-principal{
-        font-family:fantasy;
         font-size: 20px;
     }
     
@@ -46,7 +49,6 @@ and open the template in the editor.
 @media screen and (min-width: 768px) and (max-width: 991px) {
     
     .titulo-principal{
-        font-family:fantasy;
         font-size: 22px;
     }
     .texto-principal{
@@ -67,7 +69,6 @@ and open the template in the editor.
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     
     .titulo-principal{
-        font-family:fantasy;
         font-size: 24px;
     }
      .texto-principal{
@@ -90,8 +91,12 @@ and open the template in the editor.
 
 @media screen and (min-width: 1201px){
      .titulo-principal{
-        font-family:fantasy;
         font-size: 26px;
+    }
+    .titulo-secundario{
+        font-family: fantasy;
+        font-size: 25px;
+        text-align: justify;
     }
     .texto-principal{
         font-size: 18px;
@@ -292,7 +297,7 @@ footer {
 
 /*Adapta al 80% las imagenes dentro de la clase de contaniner-fluid*/
 .imagen{
-    width: 80%;
+    width: 100%;
 }
 /*Dimensiones del logo en el nav */
 .logo {
