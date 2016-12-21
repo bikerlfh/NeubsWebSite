@@ -124,11 +124,11 @@ and open the template in the editor.
         padding-bottom: 20px;
     }
     .container-principal{
-        padding-top: 20px;
+        padding-top: 30px;
     }
      .formulario{
-    margin-left: 200px;
-    margin-right: 200px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 .bg-1 {
@@ -323,7 +323,7 @@ footer {
 
 /*Adapta al 80% las imagenes dentro de la clase de contaniner-fluid*/
 .imagen{
-    width: 100%;
+    width: 80%;
 }
 /*Dimensiones del logo en el nav */
 .logo {
