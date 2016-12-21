@@ -17,7 +17,7 @@ and open the template in the editor.
     margin: auto;
 }
 .texto-principal{
-    font-family:monospace;
+    font-family: 'Open Sans', sans-serif;
     text-justify: auto;
 }
 @media screen and (max-width:767px) {
