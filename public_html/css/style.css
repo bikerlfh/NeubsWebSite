@@ -196,15 +196,52 @@ and open the template in the editor.
     }
 }
 
+.imagen-animacion-left-to-right {
+    visibility:collapse;
+}
+/* Animacion por el eje x */
+.anim-left-to-right{
+    /* Nombre de la animacion */
+    animation-name: anim-left-to-right;
+    -webkit-animation-name: anim-left-to-right; 
+    /* Duracion de la animacion */
+    animation-duration: 2s; 
+    -webkit-animation-duration: 1s;
+    /* Hacer que el elemento sea visible */
+    visibility: visible; 
+}
+
+/* Ir de 0% a 100% opacidad y especificar el porcentaje cuando se deslice el elemento a lo largo del eje x */
+@keyframes anim-left-to-right {
+    0% {
+        opacity: 0;
+        transform: translate(-90%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translate(0%);
+    } 
+}
+@-webkit-keyframes anim-left-to-right {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate(-90%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translate(0%);
+    }
+}
+
 /* Visibilidad del objeto de la animacion*/
-.imagen-animacion-botton-to-top {
+.imagen-animacion-right-to-left {
     visibility:collapse;
 }
 /* Animacion por el eje y */
-.anim-botton-to-top {
+.anim-right-to-left {
     /* Nombre de la animacion */
-    animation-name: anim-botton-to-top ;
-    -webkit-animation-name: anim-botton-to-top ; 
+    animation-name: anim-right-to-left ;
+    -webkit-animation-name: anim-right-to-left ; 
     /* Duracion de la animacion */
     animation-duration: 1s; 
     -webkit-animation-duration: 1s;
@@ -213,20 +250,20 @@ and open the template in the editor.
 }
 
 /*  Ir de 0% a 100% opacidad y especificar el porcentaje cuando se deslice el elemento a lo largo del eje y */
-@keyframes anim-botton-to-top {
+@keyframes anim-right-to-left {
     0% {
         opacity: 0;
-        transform: translateY(70%);
+        transform: translate(80%);
     } 
     100% {
         opacity: 1;
-        transform: translateY(0%);
+        transform: translate(0%);
     } 
 }
-@-webkit-keyframes anim-botton-to-top {
+@-webkit-keyframes anim-right-to-left {
     0% {
         opacity: 0;
-        -webkit-transform: translateY(70%);
+        -webkit-transform: translateY(80%);
     } 
     100% {
         opacity: 1;
@@ -324,6 +361,7 @@ footer {
 /*Adapta al 80% las imagenes dentro de la clase de contaniner-fluid*/
 .imagen{
     width: 80%;
+    margin:auto;
 }
 /*Dimensiones del logo en el nav */
 .logo {
