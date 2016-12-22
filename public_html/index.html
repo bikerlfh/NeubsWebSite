@@ -25,7 +25,7 @@ and open the template in the editor.
         <link rel=”stylesheet” type=”text/css” href=”https://fonts.googleapis.com/css?family=Orbitron”>
     </head>
     
-    <body data-spy="scroll" data-target=".navbar" data-offset="60">
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -64,31 +64,31 @@ and open the template in the editor.
                 <div class="item active">
                     <img class="img-responsive" src="img/imagen1.jpg" alt="img1">
                     <div class="carousel-caption">
-                        <h1><strong>En Neubs, nuestros clientes son lo más importante</strong></h1>
-                        <p>es por esto que trabajamos muy duro para proporcionar la mejor solución a su empresa o negocio.</p>
+                        <p class="titulo-principal">En Neubs, nuestros clientes son lo más importante</p>
+                        <p class="texto-principal">es por esto que trabajamos muy duro para proporcionar la mejor solución a su empresa o negocio.</p>
                     </div>
                 </div>
                 <div class="item">
                     <img  class="img-responsive" src="img/imagen2.jpg" alt="img2" >
                     <div class="carousel-caption">
-                        <h1><strong>Ingeniería de Software Ágil</strong></h1>
-                        <p>Desarrollamos productos bajo metodologías ágiles que se adapten al entorno cambiante de su empresa.</p>
+                        <p class="titulo-principal">Ingeniería de Software Ágil</p>
+                        <p class="texto-principal">Desarrollamos productos bajo metodologías ágiles que se adapten al entorno cambiante de su empresa.</p>
                     </div>
                 </div>
 
                 <div class="item">
                     <img class="img-responsive" src="img/imagen3.jpg" alt="img3" >
                     <div class="carousel-caption">
-                        <h1><strong>Experiencia, eficiencia y compromiso</strong></h1>
-                        <p>Nuestras áreas de diseño y desarrollo están altamente capacitadas para crear soluciones óptimas y adaptables a cualquier industria.</p>
+                        <p class="titulo-principal">Experiencia, eficiencia y compromiso</p>
+                        <p class="texto-principal">Nuestras áreas de diseño y desarrollo están altamente capacitadas para crear soluciones óptimas y adaptables a cualquier industria.</p>
                     </div>
                 </div>
 
                 <div class="item">
                     <img class="img-responsive" src="img/imagen4.jpg" alt="img4">
                     <div class="carousel-caption">
-                        <h1><strong>Desarrollos Ágiles</strong></h1>
-                        <p>Aplicamos metodologías ágiles para garantizar el cumplimiento de metas en la etapa de desarrollo y la total satisfacción de nuestros clientes y/o usuarios.</p>
+                        <p class="titulo-principal">Desarrollos Ágiles</p>
+                        <p class="texto-principal">Aplicamos metodologías ágiles para garantizar el cumplimiento de metas en la etapa de desarrollo y la total satisfacción de nuestros clientes y/o usuarios.</p>
                     </div>
                 </div>
                 <!-- Controls -->
@@ -120,8 +120,7 @@ and open the template in the editor.
                 </div>
             </div>
             <div class="row bg-grey">
-                <div class="container-fluid containerpanel">
-                   
+                <div class="container-fluid containerpanel">                  
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> 
                         <p class="titulo-principal">Diseño y Desarrollo de Aplicaciones Móviles</p>
                         <p class="texto-principal">Diseñamos y desarrollamos aplicaciones móviles multiplataforma que ayuden a nuestros clientes y usuarios a mejorar su forma de trabajar, entretenerse y divertirse. Estas aplicaciones se desarrollan para dispositivos Apple (iPhone y iPad) y Android (SmartPhone, tables, SmartTV).
@@ -130,7 +129,6 @@ and open the template in the editor.
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <img class="imagen imagen-animacion-botton-to-top center-block" src="img/ios-android-wp.jpg">
                     </div>
-                   
                 </div>
             </div>
             <div class="row bg-grey">
@@ -163,18 +161,27 @@ and open the template in the editor.
                         <br>
                         <p class="text-center"><b>Síguenos</b></p>
                         <table class="table table-icon-social ">
-                              <tr>
-                                 <td><img class="icono-social anim-botton-to-top" src="img/icon/fn.png">Facebook</td>
-                                 <td><img class="icono-social anim-botton-to-top" src="img/icon/tn.png">Twiter</td>
-                               </tr> 
-                         </table> 
-                        
+                            <tr>
+                               <td><img class="icono-social anim-botton-to-top" src="img/icon/fn.png">Facebook</td>
+                               <td><img class="icono-social anim-botton-to-top" src="img/icon/tn.png">Twiter</td>
+                            </tr> 
+                         </table>                       
                     </div>
                 </div>
-                <div class="row col-lg-12">
-                    <p style="font-size: 10px">Copyright © 2016 Neubs S.A.S . All rights reserved.</p>
+                <div class="row">
+                    <div class="col-lg-1 col-md-1">
+          
+                    </div>
+                    <div class=" col-lg-10 col-md-10">
+                        <p style="font-size: 10px">Copyright © 2016 Neubs S.A.S . All rights reserved.</p>
+                    </div>
+                    <div class=" col-lg-1 col-md-1 ">
+                        <a href="#myPage" title="To Top" class="ico-to-top imagen-animacion-botton-to-top">
+                            <span class="glyphicon glyphicon-chevron-up"></span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </footer>
-     </body>
+    </body>
 </html>

@@ -19,7 +19,7 @@ and open the template in the editor.
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/cargaAnimacion.js"></script>
     </head>
-    <body data-spy="scroll" data-target=".navbar" data-offset="60">
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
         <nav class="navbar navbar-inverse navbar-top">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -43,7 +43,7 @@ and open the template in the editor.
                 </div>
             </div>
         </nav>
-          <div class="jumbotronContacto jumbotron-fluid">
+        <div class="jumbotronContacto jumbotron-fluid">
             <div class="container">
                 <h1 class="display-3 text-center">CONTÁCTANOS</h1> 
                 <p class="lead"></p>    
@@ -53,14 +53,17 @@ and open the template in the editor.
             <div class="row  bg-grey">
                 <div class="container-fluid">
                     <hr>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                        <img src="img/icono_contactenos.png " class="img-responsive center-block">
+                    <div class='bg-grey-solid'>
+                        <p class="titulo-secundario">Puede enviar un mensaje usando el siguiente formulario de contacto</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 containerpanel">
+                        <img src="img/icono_contactenos.png " class=" img-responsive center-block anim-rotate-360">
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 ">
-                        <form class="formulario">
+                        <form class="formulario anim-right-to-left">
                             <div class="form-group center-block">
                                 <div class="col-xs-12 col-sm-12 col-md-12">
-                                    <label for="nombre" class="texto-principal">Nombre:</label>
+                                    <label for="nombre" class="texto-principal">Su Nombre: *</label>
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-12">
                                     <input type="text" class="form-control" id="nombre" name="nombre" required="required">
@@ -68,7 +71,7 @@ and open the template in the editor.
                             </div>
                             <div class="form-group ">
                                 <div class="col-xs-12 col-sm-12 col-md-12">
-                                    <label for="email" class="texto-principal">Email:</label>
+                                    <label for="email" class="texto-principal">Correo electrónico: *</label>
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-12">
                                     <input type="email" class="form-control" id="email" name="email" required="required">
@@ -76,7 +79,7 @@ and open the template in the editor.
                             </div>
                             <div class="form-group">
                                 <div class="col-xs-12 col-sm-12 col-md-12">
-                                    <label for="asunto" class="texto-principal">Asunto:</label>
+                                    <label for="asunto" class="texto-principal">Asunto: *</label>
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-12">
                                     <input type="text" class="form-control" id="asunto" name="asunto" required="required">
@@ -84,7 +87,7 @@ and open the template in the editor.
                             </div>
                             <div class="form-group">
                                 <div class="col-xs-12 col-sm-12 col-md-12">
-                                    <label for="descripcion" class="texto-principal">Descripción:</label>
+                                    <label for="descripcion" class="texto-principal">Mensaje: *</label>
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-12">
                                     <textarea class="form-control" id="descripcion" name="descripcion" required="required"  rows="8" ></textarea>
@@ -112,16 +115,24 @@ and open the template in the editor.
                         <br>
                         <p class="text-center"><b>Síguenos</b></p>
                         <table class="table table-icon-social ">
-                              <tr>
-                                 <td><img class="icono-social anim-botton-to-top" src="img/icon/fn.png">Facebook</td>
-                                 <td><img class="icono-social anim-botton-to-top" src="img/icon/tn.png">Twiter</td>
-                               </tr> 
-                         </table> 
-                        
+                                <tr>
+                                    <td><img class="icono-social imagen-animacion-botton-to-top " src="img/icon/fn.png ">Facebook</td>
+                                    <td><img class="icono-social imagen-animacion-botton-to-top" src="img/icon/tn.png">Twiter</td>
+                                </tr> 
+                        </table>                      
                     </div>
                 </div>
-                <div class="row col-lg-12">
-                    <p style="font-size: 10px">Copyright © 2016 Neubs S.A.S . All rights reserved.</p>
+                <div class="row">
+                    <div class="col-lg-1 col-md-1">        
+                    </div>
+                    <div class=" col-lg-10 col-md-10">
+                        <p style="font-size: 10px">Copyright © 2016 Neubs S.A.S . All rights reserved.</p>
+                    </div>
+                    <div class=" col-lg-1 col-md-1 ">
+                        <a href="#myPage" title="To Top" class="ico-to-top imagen-animacion-botton-to-top">
+                            <span class="glyphicon glyphicon-chevron-up"></span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </footer>

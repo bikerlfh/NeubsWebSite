@@ -33,6 +33,11 @@ and open the template in the editor.
     .texto-principal{
         font-size: 12px;
     }
+    .titulo-secundario{
+        font-family: fantasy;
+        font-size: 20px;
+        text-align: center;
+    }
    
     .container-fluid {
         width: 100%;
@@ -59,6 +64,11 @@ and open the template in the editor.
     .texto-principal{
         font-size: 14px;
     }
+    .titulo-secundario{
+        font-family: fantasy;
+        font-size: 20px;
+        text-align: center;
+    }
     .container-fluid {
         width: 100%;
     }
@@ -84,6 +94,11 @@ and open the template in the editor.
      .texto-principal{
         font-size: 16px;
     }
+    .titulo-secundario{
+        font-family: fantasy;
+        font-size: 20px;
+        text-align: center;
+    }
     .container-fluid {
         width: 100%;
         padding-bottom: 0px;
@@ -98,8 +113,8 @@ and open the template in the editor.
         padding-top: 30px;
     } 
     .formulario{
-    margin-left: 100px;
-    margin-right: 100px;
+        margin-left: 150px;
+        margin-right: 150px;
     }
 }
 
@@ -127,8 +142,8 @@ and open the template in the editor.
         padding-top: 30px;
     }
      .formulario{
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 90px;
+        margin-right: 90px;
     }
 }
 .bg-1 {
@@ -153,42 +168,37 @@ and open the template in the editor.
     background-size: cover;
     margin-bottom: 0px;
 }
- /* Sombra del contorno de la imagen de la pagina de servicios */
-.shadow {
-    -webkit-filter: drop-shadow(8px 8px 10px grey);
-    filter: drop-shadow(8px 8px 10px grey);
-}
 /* Visibilidad del objeto de la animacion*/
-.imagen-animacion-left-to-right {
+.imagen-animacion-botton-to-top {
     visibility:collapse;
 }
-/* Animacion por el eje x */
-.anim-left-to-right{
+/* Animacion por el eje y */
+.anim-botton-to-top{
     /* Nombre de la animacion */
-    animation-name: anim-left-to-right;
-    -webkit-animation-name: anim-left-to-right; 
+    animation-name: anim-botton-to-top;
+    -webkit-animation-name: anim-botton-to-top; 
     /* Duracion de la animacion */
     animation-duration: 2s; 
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 2s;
     /* Hacer que el elemento sea visible */
     visibility: visible; 
 }
 
 /* Ir de 0% a 100% opacidad y especificar el porcentaje cuando se deslice el elemento a lo largo del eje x */
-@keyframes anim-left-to-right {
+@keyframes anim-botton-to-top {
     0% {
         opacity: 0;
-        transform: translate(-90%);
+        transform: translateY(70%);
     } 
     100% {
         opacity: 1;
         transform: translate(0%);
     } 
 }
-@-webkit-keyframes anim-left-to-right {
+@-webkit-keyframes anim-botton-to-top {
     0% {
         opacity: 0;
-        -webkit-transform: translate(-90%);
+        -webkit-transform: translateY(70%);
     } 
     100% {
         opacity: 1;
@@ -257,18 +267,8 @@ and open the template in the editor.
     } 
     100% {
         opacity: 1;
-        transform: translate(0%);
+        transform: translateY(0%);
     } 
-}
-@-webkit-keyframes anim-right-to-left {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateY(80%);
-    } 
-    100% {
-        opacity: 1;
-        -webkit-transform: translateY(0%);
-    }
 }
 /*Animacion de rotacion 360 grados*/
 .anim-rotate-360 {
@@ -360,8 +360,9 @@ footer {
 
 /*Adapta al 80% las imagenes dentro de la clase de contaniner-fluid*/
 .imagen{
-    width: 80%;
+    width: 100%;
     margin:auto;
+    height: 100%;
 }
 /*Dimensiones del logo en el nav */
 .logo {
@@ -387,4 +388,8 @@ footer {
     background-color:#000;
     color: #fff;
 }
+ .ico-to-top {
+      color: #666;
+      font-size: 30px;
+  }
 

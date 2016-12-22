@@ -5,7 +5,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-     <head>
+    <head>
         <link rel="icon" type="imagen/jpg" href="img/icon/LogoP.png">
         <title>Neubs</title>
         <meta charset="UTF-8">
@@ -16,6 +16,7 @@ and open the template in the editor.
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/cargaAnimacion.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -45,18 +46,17 @@ and open the template in the editor.
         </div>
         <div class="jumbotron jumbotron-fluid">
             <div class="container  text-center">
-                <h2 class="display-3"><strong>Nuestros Servicios</strong></h2>
-                <br>
-                <p class="lead">El software es parte fundamental para su empresa o negocio, una aplicación bien diseñada y desarrollada 
+                <p class="titulo-principal">Nuestros Servicios</p>
+                <p class="texto-principal">El software es parte fundamental para su empresa o negocio, una aplicación bien diseñada y desarrollada 
                                 con estándares de calidad que le garantice seguridad, flexibilidad y accesibilidad de la información, le proporcionará 
-                                un beneficio extra que facilitará la forma de llevar sus procesos y lo conducirá al éxito.   
+                                un beneficio extra que facilitará la forma de llevar sus procesos y lo conducirá al éxito.</p>   
             </div>
         </div>
         <div class="container-principal">
             <br>
             <div class="row bg-grey">
                 <div class="container-fluid">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-md-4 ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-md-4 anim-left-to-right ">
                         <div class="thumbnail bg-grey">
                           <img src="img/programacion-software.png" alt="...">
                           <div class="caption">
@@ -72,7 +72,7 @@ and open the template in the editor.
                           </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-md-4">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-md-4 anim-right-to-left">
                         <div class="thumbnail bg-grey">
                           <img src="img/shop-imagen.png" alt="...">
                           <div class="caption">
@@ -93,7 +93,7 @@ and open the template in the editor.
             <br>
             <div class="row bg-grey">
                 <div class="container-fluid">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-md-4 ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-md-4 anim-left-to-right">
                         <div class="thumbnail bg-grey">
                           <img src="img/consultoria-imagen.png" alt="...">
                           <div class="caption">
@@ -105,7 +105,7 @@ and open the template in the editor.
                           </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-md-4">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-md-4  anim-right-to-left">
                         <div class="thumbnail bg-grey">
                           <img src="img/desarrollo-movil.png" alt="...">
                           <div class="caption">
@@ -121,5 +121,39 @@ and open the template in the editor.
                 </div>
             </div>
         </div> 
+        <footer> 
+            <div class="container-fluid text-center">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <br>
+                        <p class="text-center"><b>Contáctenos </b></p>
+                        <span class="glyphicon-envelope "> admin@neubs.co</span><br>
+                        <span class="glyphicon-phone "> (+57) 3222709439 - (+57) 3222331893</span>
+                    </div>
+                    <div align="center"  class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                        <br>
+                        <p class="text-center"><b>Síguenos</b></p>
+                        <table class="table table-icon-social ">
+                            <tr>
+                                <td><img class="icono-social imagen-animacion-botton-to-top " src="img/icon/fn.png ">Facebook</td>
+                                <td><img class="icono-social imagen-animacion-botton-to-top" src="img/icon/tn.png">Twiter</td>
+                            </tr> 
+                         </table>              
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                    </div>
+                    <div class=" col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                         <p style="font-size: 10px">Copyright © 2016 Neubs S.A.S . All rights reserved.</p>
+                    </div>
+                    <div class=" col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                        <a href="#myPage" title="To Top" class="ico-to-top imagen-animacion-botton-to-top">
+                            <span class="glyphicon glyphicon-chevron-up"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
