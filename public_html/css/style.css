@@ -113,8 +113,8 @@ and open the template in the editor.
         padding-top: 30px;
     } 
     .formulario{
-        margin-left: 150px;
-        margin-right: 150px;
+        margin-left: 120px;
+        margin-right: 120px;
     }
 }
 
@@ -142,8 +142,8 @@ and open the template in the editor.
         padding-top: 30px;
     }
      .formulario{
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 150px;
+        margin-right: 150px;
     }
 }
 .bg-1 {
@@ -397,5 +397,6 @@ footer {
     right: 0; /* Establecemos la barra en la izquierda */
     bottom: 0px;
     z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+    display: none;
  }
 
