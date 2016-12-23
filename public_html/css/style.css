@@ -142,8 +142,8 @@ and open the template in the editor.
         padding-top: 30px;
     }
      .formulario{
-        margin-left: 90px;
-        margin-right: 90px;
+        margin-left: 100px;
+        margin-right: 100px;
     }
 }
 .bg-1 {
@@ -388,8 +388,14 @@ footer {
     background-color:#000;
     color: #fff;
 }
- .ico-to-top {
-      color: #666;
-      font-size: 30px;
-  }
+.ico-to-top {
+     color: #666;
+     font-size: 30px;
+ }
+ .to-top{
+    position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+    right: 0; /* Establecemos la barra en la izquierda */
+    bottom: 0px;
+    z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+ }
 
