@@ -5,7 +5,7 @@ class Conexion
     private $host = "localhost";
     private $user = "root";
     private $pass = "";
-    private $dbName = "contactoneubs";
+    private $dbName = "contacto";
     private static $connection;
 
     /**
