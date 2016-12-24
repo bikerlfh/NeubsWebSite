@@ -6,11 +6,10 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <link rel="icon" type="image/png" href="img/icon/logo-verde.ico" />
         <title>Neubs</title>
         <meta charset="UTF-8"> <!--Tipo de caracteres-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--Incorporar estilo link-->
+        <link rel="icon" type="image/png" href="img/icon/logo-verde.ico" />
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
