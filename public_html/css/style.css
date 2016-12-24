@@ -16,27 +16,35 @@ and open the template in the editor.
     width: 100%;
     margin: auto;
 }
+.titulo-principal{
+    font-family: fantasy;
+    text-align: center;
+}
+.titulo-secundario{
+    font-family: fantasy;
+    text-align: center;
+}
 .texto-principal{
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
 }
-.titulo-principal{
-    font-family: fantasy;;
+/* texto del carousel */
+.texto-carousel{
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
+
 @media screen and (max-width:767px) {
     
     .titulo-principal{
         font-size: 20px;
     }
     
-    .texto-principal{
+    .texto-principal, .texto-carousel{
         font-size: 12px;
     }
     .titulo-secundario{
-        font-family: fantasy;
         font-size: 20px;
-        text-align: center;
     }
    
     .container-fluid {
@@ -50,9 +58,8 @@ and open the template in the editor.
         padding-top: 1px;
     }
     .formulario{
-    
-    margin-left: 20px;
-    margin-right: 20px;  
+        margin-left: 20px;
+        margin-right: 20px;  
     }
 }
 
@@ -61,13 +68,11 @@ and open the template in the editor.
     .titulo-principal{
         font-size: 22px;
     }
-    .texto-principal{
+    .texto-principal, .texto-carousel{
         font-size: 14px;
     }
     .titulo-secundario{
-        font-family: fantasy;
         font-size: 20px;
-        text-align: center;
     }
     .container-fluid {
         width: 100%;
@@ -79,10 +84,9 @@ and open the template in the editor.
     .container-principal{
         padding-top: 10px;
     }
-     .formulario{
-    
-    margin-left: 20px;
-    margin-right: 20px;  
+    .formulario {
+        margin-left: 20px;
+        margin-right: 20px;  
     }
 }
 
@@ -91,13 +95,11 @@ and open the template in the editor.
     .titulo-principal{
         font-size: 24px;
     }
-     .texto-principal{
+     .texto-principal, .texto-carousel{
         font-size: 16px;
     }
     .titulo-secundario{
-        font-family: fantasy;
         font-size: 20px;
-        text-align: center;
     }
     .container-fluid {
         width: 100%;
@@ -123,11 +125,9 @@ and open the template in the editor.
         font-size: 26px;
     }
     .titulo-secundario{
-        font-family: fantasy;
         font-size: 25px;
-        text-align: center;
     }
-    .texto-principal{
+    .texto-principal, .texto-carousel{
         font-size: 18px;
     }
     .container-fluid {
