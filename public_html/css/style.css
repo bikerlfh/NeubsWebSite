@@ -57,10 +57,6 @@ and open the template in the editor.
     .container-principal{
         padding-top: 1px;
     }
-    .formulario{
-        margin-left: 20px;
-        margin-right: 20px;  
-    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -84,10 +80,7 @@ and open the template in the editor.
     .container-principal{
         padding-top: 10px;
     }
-    .formulario {
-        margin-left: 20px;
-        margin-right: 20px;  
-    }
+    
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
