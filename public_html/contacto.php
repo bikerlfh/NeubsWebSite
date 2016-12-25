@@ -11,7 +11,6 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" href="img/icon/logo-verde.ico" />
         <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <link href="css/toastr.css" rel="stylesheet" type="text/css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
