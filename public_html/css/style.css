@@ -146,7 +146,7 @@ and open the template in the editor.
   /* Estilo de jumbotron de la pagina de servicios */
 .jumbotron 
 {
-    background-image: url(../img/fondoJumbroton.jpg);
+    background-image: url(../img/imgJumbrotonServicios.jpg);
     color: #fff;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;

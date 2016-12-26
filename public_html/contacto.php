@@ -9,7 +9,7 @@ and open the template in the editor.
         <title>Neubs</title>
         <meta charset="UTF-8"> <!--Tipo de caracteres-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" href="img/icon/logo-verde.ico" />
+        <link rel="icon" type="image/png" href="img/icon/iconoNeubs.ico" />
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <link href="css/toastr.css" rel="stylesheet" type="text/css"/>
@@ -39,7 +39,7 @@ and open the template in the editor.
                         <span class="icon-bar"></span> 
                     </button>
                     <a class="navbar-brand" href="index.html">
-                        <img class="logo" alt="Brand" src="img/icon/LogN.png" >
+                        <img class="logo" alt="Brand" src="img/icon/logoNeubs.png" >
                     </a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
@@ -66,7 +66,7 @@ and open the template in the editor.
                         <p class="titulo-secundario">Puede enviar un mensaje usando el siguiente formulario de contacto</p>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 containerpanel">
-                        <img src="img/icono_contactenos.png " class=" img-responsive center-block anim-rotate-360">
+                        <img src="img/imgContactenos.png " class=" img-responsive center-block anim-rotate-360">
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 ">
                         <form class="formulario anim-right-to-left" method="POST" action="./controller/enviarContacto.php">
@@ -125,8 +125,8 @@ and open the template in the editor.
                         <p class="text-center"><b>Síguenos</b></p>
                         <table class="table table-icon-social ">
                             <tr>
-                                <td><a href="https://www.facebook.com/NeubsOficial" target="_blank"><img class="icono-social anim-botton-to-top" src="img/icon/fn.png"></a>Facebook</td>
-                                <td><a href="https://twitter.com/NeubsOficial" target="_blank"><img class="icono-social anim-botton-to-top" src="img/icon/tn.png"></a>Twiter</td>
+                                <td><a href="https://www.facebook.com/NeubsOficial" target="_blank"><img class="icono-social anim-botton-to-top" src="img/icon/iconoFacebook.png"></a>Facebook</td>
+                                <td><a href="https://twitter.com/NeubsOficial" target="_blank"><img class="icono-social anim-botton-to-top" src="img/icon/iconoTwiter.png"></a>Twiter</td>
                             </tr> 
                          </table>                       
                     </div>
