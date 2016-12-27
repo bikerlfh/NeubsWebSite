@@ -47,7 +47,7 @@ and open the template in the editor.
                         <li onclick="$(location).attr('href', 'index.html');"><a href="#">Inicio</a></li>
                          <li onclick="$(location).attr('href', 'nosotros.html');"><a href="#">Nosotros</a></li>
                         <li onclick="$(location).attr('href', 'servicios.html');"><a href="#">Servicios</a></li>
-                        <li onclick="$(location).attr('href', 'contacto.html');"><a href="#">Contáctenos</a></li>
+                        <li onclick="$(location).attr('href', 'contacto.php');"><a href="#">Contáctenos</a></li>
                     </ul>
                 </div>
             </div>
