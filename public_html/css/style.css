@@ -430,10 +430,10 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    -webkit-transition:all .9s ease; /* Safari y Chrome */
-    -moz-transition:all .9s ease; /* Firefox */
-    -o-transition:all .9s ease; /* IE 9 */
-    -ms-transition:all .9s ease; /* Opera */
+    -webkit-transition:all .1s ease; /* Safari y Chrome */
+    -moz-transition:all .1s ease; /* Firefox */
+    -o-transition:all .1s ease; /* IE 9 */
+    -ms-transition:all .1s ease; /* Opera */
 }
 .icono-social:hover{
     -webkit-transform:scale(1.25);
