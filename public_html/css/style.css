@@ -56,6 +56,13 @@ and open the template in the editor.
         font-size: 12px;
         text-align: justify;
     }
+    .jumbotron p{
+        font-size: 14px;
+        text-align: justify;
+    }
+    .jumbotron h1{
+        font-size: 30px;
+     }
     .container-fluid {
         width: 100%;
     }
@@ -86,10 +93,17 @@ and open the template in the editor.
      .titulo-carousel{
         font-size: 18px;
     }
-     .texto-carousel{
+    .texto-carousel{
         font-size: 14px;
         text-align: justify;
     }
+    .jumbotron p{
+        font-size: 16px;
+        text-align: justify;
+    }
+    .jumbotron h1{
+        font-size: 30px;
+     }
     .container-fluid {
         width: 100%;
     }
@@ -111,16 +125,20 @@ and open the template in the editor.
     .titulo-principal{
         font-size: 24px;
     }
-     .texto-principal{
+    .texto-principal{
         font-size: 16px;
     }
     .titulo-secundario{
         font-size: 20px;
     }
-     .titulo-carousel{
+    .titulo-carousel{
         font-size: 24px;
     }
-     .texto-carousel{
+    .jumbotron p{
+        font-size: 18px;
+        text-align: justify;
+    }
+    .texto-carousel{
         font-size: 16px;
         text-align: center;
     }
@@ -143,11 +161,13 @@ and open the template in the editor.
         width: 100%; 
         max-height: 400px;
     }
+    
 }
 
 @media screen and (min-width: 1201px){
-     .titulo-principal{
-        font-size: 26px;
+    
+    .titulo-principal{
+        font-size: 30px;
     }
     .titulo-secundario{
         font-size: 25px;
@@ -155,8 +175,12 @@ and open the template in the editor.
     .texto-principal, .texto-carousel{
         font-size: 18px;
     }
-     .titulo-carousel{
+    .titulo-carousel{
         font-size: 26px;
+    }
+    .jumbotron p{
+        font-size: 21px;
+        text-align: justify;
     }
     .container-fluid {
         width: 90%;
@@ -187,11 +211,14 @@ and open the template in the editor.
 {
     background-image: url(../img/imgJumbrotonServicios.jpg);
     color: #fff;
-    padding: 100px 25px;
-    font-family: Montserrat, sans-serif;
+    padding-bottom: 100px;
+    padding-left:25px;
+    padding-top: 100px;
+    padding-left: 25px;
     background-size: cover;
     margin-bottom: 0px;
 } 
+
 .jumbotronContacto{
     background-image: url(../img/imgJumbrotronContactos.jpg);
     color: #fff;
