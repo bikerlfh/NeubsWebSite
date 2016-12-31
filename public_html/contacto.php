@@ -136,7 +136,7 @@ and open the template in the editor.
           
                     </div>
                     <div class=" col-lg-10 col-md-10">
-                        <p style="font-size: 10px">Copyright © 2016 Neubs S.A.S . All rights reserved.</p>
+                        <p style="font-size: 10px">© 2016 Neubs S.A.S. Todos los Derechos Reservados</p>
                     </div>
                     <div class="to-top col-lg-1 col-md-1 ">
                         <a href="#myPage" title="To Top" class="ico-to-top">
