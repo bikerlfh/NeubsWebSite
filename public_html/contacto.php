@@ -72,7 +72,7 @@ and open the template in the editor.
                         <form class="formulario anim-right-to-left" method="POST" action="./controller/enviarContacto.php">
                             <div class="form-group center-block">
                                 <div class="col-xs-12 col-sm-12 col-md-12">
-                                    <label for="nombre" class="texto-principal">Su Nombre: *</label>
+                                    <label for="nombre" class="texto-principal">Nombre: *</label>
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-12">
                                     <input type="text" class="form-control" id="nombre" name="nombre" required="required">
