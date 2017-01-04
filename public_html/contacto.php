@@ -4,7 +4,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html>
+<html lang="es">
     <head>
         <title>Neubs</title>
         <meta charset="UTF-8"> <!--Tipo de caracteres-->
@@ -66,7 +66,7 @@ and open the template in the editor.
                         <p class="titulo-secundario">Puede enviar un mensaje usando el siguiente formulario de contacto</p>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 containerpanel">
-                        <img src="img/imgContactenos.png " class=" img-responsive center-block anim-rotate-360">
+                        <img src="img/imgContactenos.png " class=" img-responsive center-block anim-rotate-360" alt="Contactenos">
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 ">
                         <form class="formulario anim-right-to-left" method="POST" action="./controller/enviarContacto.php">
@@ -120,13 +120,13 @@ and open the template in the editor.
                         <span class="glyphicon-envelope "> contacto@neubs.com.co</span><br>
                         <span class="glyphicon-phone "> (+57) 3222709439 - (+57) 3222331893</span>
                     </div>
-                    <div align="center"  class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
                         <br>
                         <p class="text-center"><b>Síguenos</b></p>
                         <table class="table table-icon-social ">
                             <tr>
-                                <td><a href="https://www.facebook.com/NeubsOficial" target="_blank"><img class="icono-social anim-botton-to-top" src="img/icon/iconoFacebook.png"></a>Facebook</td>
-                                <td><a href="https://twitter.com/NeubsOficial" target="_blank"><img class="icono-social anim-botton-to-top" src="img/icon/iconoTwiter.png"></a>Twiter</td>
+                                <td><a href="https://www.facebook.com/NeubsOficial" target="_blank"><img class="icono-social anim-botton-to-top" src="img/icon/iconoFacebook.png" alt="Facebook"></a>Facebook</td>
+                                <td><a href="https://twitter.com/NeubsOficial" target="_blank"><img class="icono-social anim-botton-to-top" src="img/icon/iconoTwiter.png" alt="Twitter"></a>Twitter</td>
                             </tr> 
                          </table>                       
                     </div>
