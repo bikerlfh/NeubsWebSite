@@ -117,7 +117,7 @@ and open the template in the editor.
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <br>
                         <p class="text-center"><b>Contáctenos </b></p>
-                        <span class="glyphicon-envelope "> contacto@neubs.com.co</span><br>
+                        <span class="glyphicon-envelope ">gerencia@neubs.com.co</span><br>
                         <span class="glyphicon-phone "> (+57) 3222709439 - (+57) 3222331893</span>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
